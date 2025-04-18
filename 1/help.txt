@@ -1,0 +1,5 @@
+ email_body = email_body_template.replace('{{recipient_email}}', email)  # Replace placeholder with actual email
+    email_body = email_body.replace('{{domain}}', domain)  # Replace domain placeholder
+    email_body = email_body.replace('{{emailname}}', emailname)  # Replace email name placeholder
+    email_body = email_body.replace('{{time}}', current_time)  # Replace time placeholder
+    
